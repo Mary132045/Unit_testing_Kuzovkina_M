@@ -1,0 +1,6 @@
+Начинаем проверку...
+[ERROR] C:\Users\gepat\Documents\training at GeekBrains\Unit tests\Unit_tests\src\test\homeworks\homework_06\my_test\NumberListComparatorTest.java:16: Длина строки больше 100 (всего 121). [LineLength]
+[ERROR] C:\Users\gepat\Documents\training at GeekBrains\Unit tests\Unit_tests\src\test\homeworks\homework_06\my_test\NumberListComparatorTest.java:23: Длина строки больше 100 (всего 121). [LineLength]
+[ERROR] C:\Users\gepat\Documents\training at GeekBrains\Unit tests\Unit_tests\src\test\homeworks\homework_06\my_test\NumberListComparatorTest.java:30: Длина строки больше 100 (всего 107). [LineLength]
+[ERROR] C:\Users\gepat\Documents\training at GeekBrains\Unit tests\Unit_tests\src\test\homeworks\homework_06\my_test\NumberListComparatorTest.java:37: Длина строки больше 100 (всего 107). [LineLength]
+Проверка завершена.

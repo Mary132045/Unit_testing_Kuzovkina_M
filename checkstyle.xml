@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!DOCTYPE module PUBLIC
+        "-//Checkstyle//DTD Checkstyle Configuration 1.3//EN"
+        "https://checkstyle.org/dtds/configuration_1_3.dtd">
+
+<!-- Дефолтный набор правил -->
+<module name="Checker">
+    <!-- Основные правила -->
+    <module name="TreeWalker">
+        <!-- Правило на пробелы вокруг операторов -->
+        <module name="WhitespaceAfter"/>
+        <!-- Правило для имени классов -->
+        <module name="TypeName">
+            <property name="format" value="^[A-Z][a-zA-Z0-9]*$"/>
+        </module>
+        <!-- Правило для отступов -->
+        <module name="Indentation"/>
+        <!-- Правило для использования одного пробела после ключевых слов -->
+        <module name="WhitespaceAround"/>
+        <!-- Проверка на отсутствие табуляций -->
+        <module name="NoWhitespaceAfter"/>
+        <module name="NoWhitespaceBefore"/>
+        <!-- Проверка именования переменных и методов -->
+        <module name="MemberName">
+            <property name="format" value="^[a-z][a-zA-Z0-9]*$"/>
+        </module>
+        <!-- Проверка на наличие документации -->
+        <module name="JavadocMethod"/>
+        <module name="JavadocType"/>
+        <module name="JavadocVariable"/>
+    </module>
+
+    <!-- Правило для размера строки -->
+    <module name="LineLength">
+        <property name="max" value="100"/>
+        <property name="ignorePattern" value="^package |^import "/>
+    </module>
+</module>
